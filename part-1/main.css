@@ -62,7 +62,13 @@ article h1:has(+ h2) {
 }
 
 /* STEP FIVE - SIZING ELEMENTS IN CSS - absolute and relative units */ 
+.container {
+  width: 50%;
+}
 
+.ex1 {
+  width: 50vw;
+}
 
 
 

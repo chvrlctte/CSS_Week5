@@ -25,6 +25,8 @@ header a {
 /* Layout  & Appearance  */
 header {
     position: relative; 
+    height: 45vw;
+    background-color: burlywood;
 }
 
 main {
@@ -43,7 +45,7 @@ div.flex {
 
 }
 
-/* position the buttons  
+/* position the buttons*/  
 #subscribeButton {
  
 }
@@ -51,8 +53,6 @@ div.flex {
 #readButton {
 
 }
-
-*/
 
 /*navigation*/
 
