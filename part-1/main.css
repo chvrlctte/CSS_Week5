@@ -42,6 +42,9 @@
 
 /* STEP FOUR  - cool pseudo selectors  */ 
 /* :not */ 
+.ex1 p:not(.box2) {
+  font-style: italic;
+}
 
 /* :has( ) */ 
 
