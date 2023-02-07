@@ -47,7 +47,19 @@
 }
 
 /* :has( ) */ 
+article h1 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
 
+article h2 {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+article h1:has(+ h2) {
+  padding: 1rem 0 0.25rem 0;
+}
 
 /* STEP FIVE - SIZING ELEMENTS IN CSS - absolute and relative units */ 
 
