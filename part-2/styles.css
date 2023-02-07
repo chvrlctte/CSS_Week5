@@ -1,0 +1,71 @@
+/* General Styles */
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Typography */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+header a {
+    color: rgb(255, 255, 255);
+}
+
+
+/* Layout  & Appearance  */
+header {
+    position: relative; 
+}
+
+main {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+div.flex {
+    justify-content: space-between;
+
+}
+
+/* position the buttons  
+#subscribeButton {
+ 
+}
+
+#readButton {
+
+}
+
+*/
+
+/*navigation*/
+
+nav.flex {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+nav a {
+/* remember to style the various link states! */ 
+    padding: 0 1rem; 
+}
+
+/* Backgrounds & Images */

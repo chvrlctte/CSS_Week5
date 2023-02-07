@@ -1,0 +1,45 @@
+* {
+    margin:0; 
+    padding: 0; 
+}
+
+.container {
+  margin-top: 25px; 
+  max-width: 960px;
+  margin-left: auto; 
+  margin-right: auto; 
+  background-color: #BADA55;
+  position:relative; 
+  font-family: 'Roboto', sans-serif; 
+}
+
+/* STEP ONE - the box model - what will the width of the box be?*/
+/*.box1 {
+
+}*/
+
+/* STEP TWO - overflow */ 
+.box2 {
+    background-color: orange; 
+    width: 350px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid #000;
+  /* STEP THREE - positioning */
+}
+
+
+
+/* STEP FOUR  - cool pseudo selectors  */ 
+/* :not */ 
+
+/* :has( ) */ 
+
+
+/* STEP FIVE - SIZING ELEMENTS IN CSS - absolute and relative units */ 
+
+
+
+
+
+
